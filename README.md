@@ -1,4 +1,4 @@
-## S K Tech Ventures ##: 
+## S K Tech Ventures : 
 
 Your Online Tech Solutions Collaborators
 ## Overview
