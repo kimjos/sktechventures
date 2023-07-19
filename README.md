@@ -57,6 +57,6 @@ This repository will serve as a central hub for our project's codebase and docum
 
 ## Conclusion
 
-With Sketch Ventures, we embark on a remarkable journey of innovation, learning, and growth. By collaboratively exploring the world of HTML and CSS, we set the stage for creating remarkable online tech solutions that make a difference. Our commitment to excellence and teamwork will drive us forward, turning this venture into a resounding success.
+With S K Tech Ventures, we embark on a remarkable journey of innovation, learning, and growth. By collaboratively exploring the world of HTML and CSS, we set the stage for creating remarkable online tech solutions that make a difference. Our commitment to excellence and teamwork will drive us forward, turning this venture into a resounding success.
 
 Let's code our way to success! 🚀
