@@ -1,11 +1,16 @@
-Sketch Ventures: Your Online Tech Solutions Collaborators
-Overview
-Welcome to Sketch Ventures, an innovative collaboration between two tech enthusiasts determined to revolutionize the digital landscape. This project aims to deliver top-notch online tech solutions through a step-by-step journey, beginning with HTML and CSS.
+## S K Tech Ventures ##: 
 
-Introduction
-Sketch Ventures is the brainchild of two passionate individuals, SaM and Kuria, who share an unwavering vision of empowering businesses and individuals with cutting-edge online tech solutions. Our journey commences with the fundamentals of web development, focusing on HTML and CSS to build a strong foundation for our future endeavors.
+Your Online Tech Solutions Collaborators
+## Overview
+
+Welcome to S K Tech Ventures, an innovative collaboration between two tech enthusiasts determined to revolutionize the digital landscape. This project aims to deliver top-notch online tech solutions through a step-by-step journey, beginning with HTML and CSS.
+
+## Introduction
+
+S K Tech Ventures is the brainchild of two passionate individuals, SaM and Kuria, who share an unwavering vision of empowering businesses and individuals with cutting-edge online tech solutions. Our journey commences with the fundamentals of web development, focusing on HTML and CSS to build a strong foundation for our future endeavors.
 
 Objectives
+
 Our primary objectives for this project are:
 
 Learning and Growth: Through hands-on implementation of HTML and CSS, we aim to enhance our skills and expertise in web development, ensuring we stay up-to-date with the latest industry standards.
