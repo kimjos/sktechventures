@@ -4,14 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>S K Tech Ventures</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     
 <section class="header">
     <nav>
         <a href=""> <img src="images/sktechlog2.png" alt=""></a>
+        <div class="nav-links" id="nav-link">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li> 
+            </ul> 
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
     </nav>
+<div class="text-box">
+    <h1>Your One-Stop Tech Solution Hub</h1>
+    <p>Explore Endless Possibilities with Our Comprehensive Solutions.<br> Our Tech Solutions Drive Your Success
+    </p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
 </section>
 
+
+
+<!---------------- script ----------->
+<script>
+    var navLink = document.getElementById('navLink');
+    function showMenu() {
+        if (navLink) {
+            navLink.style.right = "0";
+        }
+    }
+    
+    function hideMenu() {
+        if (navLink) {
+            navLink.style.right = "-200px";
+        }
+    }
+</script>
 </body>
 </html>
