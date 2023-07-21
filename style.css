@@ -129,7 +129,7 @@ nav .fas{
 body {
     background-color: #C9D1D5;
     }
-.Services{
+.services{
     width: 80%;
     margin:auto;
     text-align: center;
@@ -152,8 +152,9 @@ p{
     margin-bottom: 5%;
     display: flex;
     justify-content: space-between;
+    /* justify-content: space-evenly; */
 }
-.course-col{
+.services-col{
     flex-basis: 31%;
     background: #fff3f3;
     border-radius: 10px;
@@ -161,13 +162,14 @@ p{
     padding: 20px 12px;
     box-sizing: borderbox;
     transition: 0.5s;
+    justify-content: space-between;
 }
 h3{
     text-align: center;
     font-weight: 700;
     margin: 10px 0;
 }
-.course-col:hover{
+.services-col:hover{
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 @media(max-width: 700px){
