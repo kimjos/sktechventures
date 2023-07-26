@@ -1,13 +1,13 @@
-## S K Tech Ventures : 
+## SK Tech Ventures : 
 
 Your Online Tech Solutions Collaborators
 ## Overview
 
-Welcome to S K Tech Ventures, an innovative collaboration between two tech enthusiasts determined to revolutionize the digital landscape. This project aims to deliver top-notch online tech solutions through a step-by-step journey, beginning with HTML and CSS.
+Welcome to SK Tech Ventures, an innovative collaboration between two tech enthusiasts determined to revolutionize the digital landscape. This project aims to deliver top-notch online tech solutions through a step-by-step journey, beginning with HTML and CSS.
 
 ## Introduction
 
-S K Tech Ventures is the brainchild of two passionate individuals, SaM and Kuria, who share an unwavering vision of empowering businesses and individuals with cutting-edge online tech solutions. Our journey commences with the fundamentals of web development, focusing on HTML and CSS to build a strong foundation for our future endeavors.
+SK Tech Ventures is the brainchild of two passionate individuals, Sam and Kuria, who share an unwavering vision of empowering businesses and individuals with cutting-edge online tech solutions. Our journey commences with the fundamentals of web development, focusing on HTML and CSS to build a strong foundation for our future endeavors.
 
 ## Objectives
 
@@ -57,6 +57,6 @@ This repository will serve as a central hub for our project's codebase and docum
 
 ## Conclusion
 
-With S K Tech Ventures, we embark on a remarkable journey of innovation, learning, and growth. By collaboratively exploring the world of HTML and CSS, we set the stage for creating remarkable online tech solutions that make a difference. Our commitment to excellence and teamwork will drive us forward, turning this venture into a resounding success.
+With SK Tech Ventures, we embark on a remarkable journey of innovation, learning, and growth. By collaboratively exploring the world of HTML and CSS, we set the stage for creating remarkable online tech solutions that make a difference. Our commitment to excellence and teamwork will drive us forward, turning this venture into a resounding success.
 
 Let's code our way to success! 🚀
