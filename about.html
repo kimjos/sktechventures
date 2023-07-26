@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK Tech Ventures</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<section class="sub-header">
+    <nav>
+        <a href=""> <img src="images/sktechlog2.png" alt=""></a>
+        <div class="nav-links" id="nav-link">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li> 
+            </ul> 
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+
+</section>
+<!---------------------------------about us content------------------->
+<section class="about-us">
+    <div class="row">
+    <div class="about-col">
+     <h1>Your Trusted Tech Partner: SK Tech Ventures</h1>
+     <p><b>Welcome</b> <br>At SK Tech Ventures we understand that staying ahead in the digital world requires reliable, efficient, and personalized tech solutions. That's why our team of dedicated experts is here to take care of all your technology needs, ensuring you have the tools and support to thrive in today's fast-paced tech landscape.</p>
+
+       <p><b>Our Commitment to Excellence</b> <br>
+        With years of experience in the industry, we have honed our skills and expertise to provide top-notch services that exceed your expectations. We take pride in delivering exceptional solutions tailored to your unique requirements, helping you achieve your goals with ease.</p>
+        
+        <p><b>Your Trusted Technology Partner</b><br>
+        At SK Tech Ventures, we believe in building lasting relationships with our clients. We don't just provide services; we become your trusted technology partner, guiding you every step of the way. Our mission is to empower you with the right hardware, software, and network security measures, so you can focus on what matters most – growing your business.</p>
+     <a href="" class="hero-btn red-btn">Explore Now</a>
+    </div>
+    <div class="about-col">
+     <img src="images/user5.jpg">
+    </div>
+ 
+    </div>
+ </section>
+
+<!----------------------footer section------------------------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Revolutionizing tech with boundless possibilities.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div> 
+    <p>&copy; 2023 SK Tech Ventures. All rights reserved.</p>
+</section>
+<!---------------- script ----------->
+ <script>
+    var navLink = document.getElementById('nav-link'); // Update ID to "nav-link"
+    function showMenu() {
+        if (navLink) {
+            navLink.style.right = "0";
+        }
+    }
+    
+    function hideMenu() {
+        if (navLink) {
+            navLink.style.right = "-200px";
+        }
+    }
+</script>
+</body>
+</html>
