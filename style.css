@@ -162,8 +162,8 @@ p{
     margin-bottom: 5%;
     display: flex;
     justify-content: space-between;
-    /* justify-content: space-evenly; */
 }
+
 .services-col{
     flex-basis: 31%;
     background: #fff3f3;
@@ -179,6 +179,7 @@ h3{
     font-weight: 700;
     margin: 10px 0;
 }
+
 .services-col:hover{
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
@@ -186,7 +187,6 @@ h3{
     .row{
         flex-direction: column;
     }
-
 }
 
 /*-------- testimonials -------*/
@@ -299,13 +299,22 @@ h3{
     width: 100%;
 }
 .about-col h1{
+    padding: 15px 0 25px;
+    color: black;
+
+}
+.about-col h5{
     padding-top: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #454545;
 
 }
 .about-col p{
     padding: 15px 0 25px;
     font-size: 18px;
-    font-weight: 350;
+    font-weight: 700;
+    color: #454545;
 
 }
 .red-btn{
@@ -316,4 +325,55 @@ h3{
 }
 .red-btn:hover{
     color: #fff;
+}
+@media(max-width: 700px){
+    .about-col p{
+        padding: 15px 0 25px;
+        font-size: 16px;
+        font-weight: 450;
+        color: #454545;
+        }
+    .about-col h1{
+        padding: 5px 0 20px;
+        color: black;
+        font-size: 18;
+        font-weight: 400;
+        }
+}
+/*------- services pages --------*/
+
+/* Optional: Center align the text inside each service column */
+.service h1{
+    color: black;
+}
+.service-col h3{
+    text-align: left;
+    font-weight: 700;
+    margin: 10px 0;
+    padding: 18px;
+    color: black;
+}
+.service-col ul {
+  text-align: left;
+  padding: 18px;
+}
+.service-col li{
+    color: #454545;
+}
+.row1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Adjust the gap as needed
+    justify-content: space-evenly; */
+}
+@media(max-width: 700px){
+    .row1{
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
