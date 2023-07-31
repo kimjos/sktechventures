@@ -375,5 +375,8 @@ h3{
         flex-direction: column;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+/* 
+        margin-top: 5%;
+        margin-bottom: 5%; */
     }
 }
