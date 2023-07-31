@@ -340,40 +340,71 @@ h3{
         font-weight: 400;
         }
 }
-/*------- services pages --------*/
+/* ------- services pages --------*/
+.service-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    padding: 20px; /* Add padding around the service items */
+}
 
-/* Optional: Center align the text inside each service column */
-.service h1{
+/* Styling for each service column */
+.service-col {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust width for three columns with spacing */
+    margin-bottom: 20px; 
+}
+@media (max-width: 700px) {
+    .service-col {
+        flex: 0 0 100%; 
+    }
+}
+.service h1 {
     color: black;
 }
-.service-col h3{
+
+.service-col h3 {
     text-align: left;
     font-weight: 700;
     margin: 10px 0;
     padding: 18px;
     color: black;
 }
+
 .service-col ul {
-  text-align: left;
-  padding: 18px;
+    text-align: left;
+    padding: 18px;
 }
-.service-col li{
+
+.service-col li {
     color: #454545;
 }
-.row1{
+
+.row1 {
     margin-top: 5%;
     margin-bottom: 5%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px; /* Adjust the gap as needed
-    justify-content: space-evenly; */
+    gap: 20px;
 }
-@media(max-width: 700px){
-    .row1{
+
+/* Media query for screens up to 700px */
+@media (max-width: 700px) {
+    .row1 {
         flex-direction: column;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    
+    /* Hide the navigation links by default for smaller screens */
+    .nav-links {
+        right: -200px;
+    }
+    
+    /* Show the navigation links when the menu icon is clicked */
+    .nav-links.show {
+        right: 0;
     }
 }
